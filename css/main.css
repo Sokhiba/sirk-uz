@@ -1,0 +1,229 @@
+@font-face {
+  font-family: "opensans bold";
+  src: url("../fonts/Open_Sans/OpenSans-Bold.ttf") format("truetype"); }
+@font-face {
+  font-family: "opensans light";
+  src: url("../fonts/Open_Sans/OpenSans-Light.ttf") format("truetype"); }
+@font-face {
+  font-family: "regular";
+  src: url("../fonts/Open_Sans/OpenSans-SemiBold.ttf") format("truetype"); }
+.font-family-bold {
+  font-family: "opensans bold", sans-serif; }
+
+.font-family-light {
+  font-family: "opensans light", sans-serif; }
+
+.font-family-regular {
+  font-family: "regular", sans-serif; }
+
+.universal {
+  color: #242464; }
+
+.icon {
+  width: 20px;
+  height: 20px;
+  display: inline-block;
+  mask-size: 100%;
+  mask-repeat: no-repeat;
+  background-color: #7f7f7f;
+  vertical-align: sub;
+  -webkit-mask-size: 100%;
+  -webkit-mask-repeat: no-repeat; }
+  .icon.icon-eye {
+    mask-image: url("../images/icons/eye-open.svg");
+    -webkit-mask-image: url("../images/icons/eye-open.svg"); }
+  .icon.icon-home {
+    mask-image: url("../images/icons/home.svg");
+    -webkit-mask-image: url("../images/icons/home.svg"); }
+  .icon.icon-search {
+    mask-image: url("../images/icons/magnifying-glass.svg");
+    -webkit-mask-image: url("../images/icons/magnifying-glass.svg"); }
+  .icon.icon-phone {
+    mask-image: url("../images/icons/phone-call.svg");
+    -webkit-mask-image: url("../images/icons/phone-call.svg"); }
+  .icon.icon-location {
+    mask-image: url("../images/icons/placeholder.svg");
+    -webkit-mask-image: url("../images/icons/placeholder.svg"); }
+  .icon.icon-like {
+    mask-image: url("../images/icons/thumbs-up.svg");
+    -webkit-mask-image: url("../images/icons/thumbs-up.svg"); }
+  .icon.icon-play {
+    mask-image: url("../images/icons/play-button.svg");
+    -webkit-mask-image: url("../images/icons/play-button.svg"); }
+
+body {
+  background-image: url("../images/header_bg.jpg");
+  background-repeat: no-repeat;
+  background-size: 100%;
+  /************************MEDIALAR************************/ }
+  body header .container .row .col-12 .navbar-brand .icon {
+    height: 30px;
+    width: 30px; }
+  body header .container .row .col-12 .collapse li a {
+    font-size: 22px; }
+  body header .container .row .col-12 .dropdown button {
+    font-size: 22px; }
+  body header .container .row .col-12 .input-group {
+    width: 50vw;
+    height: 30px; }
+    body header .container .row .col-12 .input-group input {
+      padding: 27px; }
+    body header .container .row .col-12 .input-group button {
+      background-color: #242464;
+      padding-left: 25px;
+      padding-right: 25px; }
+    body header .container .row .col-12 .input-group .icon {
+      width: 35px;
+      height: 35px;
+      background-color: white; }
+  body main .container .row .col-12 a {
+    color: #242464;
+    margin-bottom: 20px;
+    position: relative;
+    text-decoration: none; }
+    body main .container .row .col-12 a:after {
+      content: '';
+      width: 0;
+      height: 2px;
+      background-color: #242464;
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      transition: all 1s; }
+    body main .container .row .col-12 a:hover:after {
+      width: 100%; }
+  body main .container .row .col-lg-9 .row .col-4 .raz {
+    font-size: 16px;
+    margin-bottom: 0;
+    color: black; }
+  body main .container .row .col-lg-9 .row .col-4 p {
+    line-height: 18px; }
+  body main .container .row .col-lg-9 .row .col-4 .sana {
+    font-size: 13px;
+    color: #959595; }
+  body main .container .row .col-lg-3 .aylantirish {
+    transform: rotate(180deg); }
+  body main .container .row .col-lg-3 .button {
+    top: 60px;
+    right: 45%; }
+    body main .container .row .col-lg-3 .button .icon {
+      width: 50px;
+      height: 50px;
+      background-color: white; }
+  body main .container .row .col-lg-3 .row .col-5 {
+    position: relative; }
+    body main .container .row .col-lg-3 .row .col-5 .mayda {
+      z-index: 1;
+      position: absolute;
+      top: 20px;
+      left: 50px; }
+      body main .container .row .col-lg-3 .row .col-5 .mayda .icon {
+        width: 30px;
+        height: 30px;
+        background-color: white; }
+  body footer {
+    background-repeat: no-repeat;
+    background-image: url("../images/footer_bg.png"); }
+    body footer .container .row .col-12 {
+      width: 100%;
+      height: 2px;
+      background-color: #0060AD;
+      margin-bottom: 10px; }
+    body footer .container .row .col-6 .chiziq {
+      height: 15px;
+      width: 1px;
+      background-color: white; }
+  body #Predator .kalla img {
+    width: 100%; }
+  body #Predator .kalla .gradient {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    background-image: linear-gradient(180deg, transparent, aqua);
+    background-repeat: no-repeat; }
+  body #Predator .kalla .masxarabozlar {
+    position: absolute;
+    top: 31%;
+    left: 13%;
+    color: darkblue;
+    font-size: 28px;
+    z-index: 1111111111111111111111; }
+  body #Predator .col {
+    margin-right: 30px; }
+    body #Predator .col p {
+      font-size: 28px; }
+    body #Predator .col .Prasm {
+      width: 140px;
+      height: 150px;
+      background-image: url("../images/icons.png");
+      background-repeat: no-repeat; }
+    body #Predator .col .Prasm1 {
+      width: 140px;
+      height: 150px;
+      background-image: url("../images/icons.png");
+      background-repeat: no-repeat;
+      background-position-x: -148px; }
+    body #Predator .col .Prasm2 {
+      width: 140px;
+      height: 150px;
+      background-image: url("../images/icons.png");
+      background-repeat: no-repeat;
+      background-position-x: -285px; }
+  body #Predator .c {
+    color: darkblue; }
+  body #Predator .row .col-6 .carousel {
+    box-shadow: 0 0 0.8px grey; }
+    body #Predator .row .col-6 .carousel .carousel-indicators {
+      bottom: 10px !important; }
+      body #Predator .row .col-6 .carousel .carousel-indicators li {
+        background-color: darkblue;
+        width: 15px;
+        height: 15px;
+        border-radius: 50%; }
+  body #Predator .row .col .btn {
+    background-color: #242464;
+    border: 0; }
+  body #Predator .progress .progress-bar {
+    background-color: #242464;
+    border-radius: 10px; }
+    body #Predator .progress .progress-bar .tra {
+      color: transparent; }
+  body #Predator form .kk button {
+    margin-top: 120px !important;
+    margin-bottom: -70px !important; }
+  @media (max-width: 1200px) {
+    body body .container .row .tata .kalla .masxarabozlar {
+      font-size: 25px !important; } }
+  @media (max-width: 992px) {
+    body body .container .row .tata .kalla .masxarabozlar {
+      font-size: 18px !important; } }
+
+@media (max-width: 1000px) {
+  footer {
+    background-image: none !important;
+    background-color: #242464; } }
+@media (max-width: 1000px) {
+  main .container .row .col-lg-3 .button {
+    position: absolute;
+    top: 200px;
+    left: 40%;
+    z-index: 1; }
+    main .container .row .col-lg-3 .button .icon {
+      width: 100px;
+      height: 100px;
+      background-color: white; }
+  main .container .row .col-lg-3 .row .col-5 {
+    position: relative; }
+    main .container .row .col-lg-3 .row .col-5 .mayda {
+      position: absolute;
+      top: 100px;
+      left: 50%;
+      z-index: 1; }
+      main .container .row .col-lg-3 .row .col-5 .mayda .icon {
+        width: 50px;
+        height: 50px;
+        background-color: white; } }
+
+/*# sourceMappingURL=main.css.map */
